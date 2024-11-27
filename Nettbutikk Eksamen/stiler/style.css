@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+}
+
+.product-card{
+    width: 50%;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+.reviews-card{
+    width: 50%;
+}
