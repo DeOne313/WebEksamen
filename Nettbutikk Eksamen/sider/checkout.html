@@ -3,9 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stiler/style.css">
+    <link rel="stylesheet" href="../Ikoner/css/all.css">
     <title>Kasse</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <form>
+                <input type="search" id="search" placeholder="Søk her">
+                <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+            </form>
+            <ul id="nav-list">
+                <li><a href="../index.html">Hjem</a></li>
+                <li><a href="../index.html#products">Produkter</a></li>
+                <li>
+                    <a href="../index.html"><img src="##" alt="Nettsidens logo, FORKLAR HER HVORDAN DEN SER UT"></a>
+                </li>
+                <li><a href="../index.html#categories">Kategorier</a></li>
+                <li><a href="#footer">Kontakt oss</a></li>
+            </ul>
+            <ul id="nav-icon">
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><a href="../sider/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Kasse</h1>
+        <section>
+            <h2>SHOPPINGBAGGEN DIN</h2>
+            <article>
+                <picture>
+                    <img src="../bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
+                    <!--Image by <a href="https://pixabay.com/users/jarmoluk-143740/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=428614">Michal Jarmoluk</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=428614">Pixabay</a>-->
+                </picture>
+                <h3>Jeans</h3>
+                <p>499 kr</p>
+                <p>Farge: Blå</p>
+            </article>
+            <article>
+                <picture>
+                    <img src="../bilder/shoes2.jpg" alt="Sko av samme merke Converse, men i grå og med Marvel karakterer bak">
+                    <!--Image by <a href="https://pixabay.com/users/cegoh-94852/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1433925">Jason Goh</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1433925">Pixabay</a>-->
+                </picture>
+                <h3>Converse Marvel</h3>
+                <p>999 kr</p>
+                <p>Farge: Flerfarget</p>
+            </article>
+            <article>
+                <picture>
+                    <img src="../bilder/shoes-153310_1280.png" alt="Bilde av en grønn Converse sko.">
+                       <!-- Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=153310">OpenClipart-Vectors</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=153310">Pixabay</a>-->
+                </picture>
+                <h3>Converse Allstar</h3>
+                <p>799 kr</p>
+                <p>Farge: Grønn</p>
+            </article>
+        </section>
+        <section>
+            <h2>DINE OPPLYSNINGER</h2>
+            <form>
+                <h3>Leveringsadresse</h3>
+                <article>
+                    <article>
+                        <label for="fname">Fornavn</label>
+                        <input type="text" id="fname" placeholder="Nora*" required>
+                    </article>
+                    <article>
+                        <label for="lname">Etternavn</label>
+                        <input type="text" id="lname" placeholder="Nordmann*" required>
+                    </article>
+                </article>
+                <article>
+                    <label for="addr">Gateadresse</label>
+                    <input type="text" id="addr" placeholder="BRA Veien 4*" required>
+                </article>
+                <article>
+                    <article>
+                        <label for="postnb">Postnummer</label>
+                        <input type="text" id="postnb" placeholder="1752*" required>
+                    </article>
+                    <article>
+                        <label for="postst">Poststed</label>
+                        <input type="text" id="postst" placeholder="Halden*" required>
+                    </article>
+                </article>
+                <article>
+                    <ul>
+                        <li>
+                            <button>Lagre</button>
+                        </li>
+                        <li>
+                            <button>Avbryt</button>
+                        </li>
+                    </ul>
+                </article>
+            </form>
+        </section>
+        <section>
+            <h3>LEVERING</h3>
+            <section>
+                <h4>LEVERINGSVALG</h4>
+                <section>
+                    <form>
+                        <input type="radio" id="expHome" name="ship">
+                        <label for="expHome">Expresspakke Til Utleveringssted</label>
+                            <p>3-4 Virkedager</p>
+                            <p>59kr</p>
+                        <input type="radio" id="expPoint" name="ship">
+                        <label for="expPoint">Expresspakke Til Utleveringssted</label>
+                            <p>1-3 Virkedager</p>
+                            <p>59kr</p>
+                        <input type="radio" id="normHome" name="ship">
+                        <label for="normHome">Standard Hjemlevering</label>
+                            <p>5-8 Virkedager</p>
+                            <p>Gratis</p>
+                    </form>
+                </section>
+            </section>
+        </section>
+        <section>
+            <h3>BETALING</h3>
+            <section>
+                <h4>BETAL MED KORT</h4>
+                <section>
+                    <label for="cardNmbr">Kortnummer</label>
+                    <input type="number" id="cardNmbr" placeholder="123456789*******">
+                </section>
+                <section>
+                    <section>
+                        <label for="date">Utløpsdato</label>
+                        <input type="date" id="date">
+                    </section>
+                    <section>
+                        <label for="cvc">CVC/CVV</label>
+                        <input type="number" id="cvc" placeholder="313">
+                    </section>
+                </section>
+                <section>
+                    <p>Å betale inkl. mva.</p>
+                    <p>1199 kr</p>
+                    <button>Fullfør kjøp</button>
+                    <p>Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger.</p>
+                    <label for="terms"><input type="checkbox" id="terms">Ja, jeg godtar vilkårene.</label>
+                    <label for="letter"><input type="checkbox" id="letter">Ja takk! Send nyhetsbrev til meg.</label>
+                </section>
+            </section>
+        </section>
+    </main>
 </body>
 </html>
