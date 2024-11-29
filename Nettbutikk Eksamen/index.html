@@ -33,21 +33,23 @@
             <article id="bannerText">
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
                 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facilis at voluptas sint beatae, voluptatem saepe ratione. Similique consequatur, obcaecati minus porro ipsa ex a commodi.</p>
+                <p id="bannerParagraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus facilis at voluptas sint beatae, voluptatem saepe ratione. Similique consequatur, obcaecati minus porro ipsa ex a commodi.</p>
 
-                <p><a href="">Les mer</a></p>
+                <a href="" id="moreButton">Les mer</a>
             </article>
         </section>
         <section id="products">
             <h2>Våre mest populære produkter</h2>
                 <article id="product-box">
-                    <p>Oppdag det beste av det beste</p>
-                    <ul>
-                    <li><button>New Product</button></li>
-                    <li><button>Special Price</button></li>
-                    <li><button>Best Sellers</button></li>
-                    </ul>
-
+                    <article id="filter">
+                        <p>  Oppdag det beste av det beste</p>
+                        <ul id="filterList">
+                            <li class="filterRow"><button>New Product</button></li>
+                            <li class="filterRow"><button>Special Price</button></li>
+                            <li class="filterRow"><button>Best Sellers</button></li>
+                        </ul>
+                    </article>
+                    <a href="./sider/product.html">
                     <article class="product-card">
                         <picture>
                             <img src="./bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
@@ -56,6 +58,8 @@
                         <h3>Blue Jeans</h3>
                         <p>999 kr</p>
                     </article>
+                    </a>
+                    <a href="./sider/product.html">
                     <article class="product-card">
                         <picture>
                             <img src="./bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
@@ -64,6 +68,8 @@
                         <h3>Blue Jeans</h3>
                         <p>999 kr</p>
                     </article>
+                    </a>
+                    <a href="./sider/product.html">
                     <article class="product-card">
                         <picture>
                             <img src="./bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
@@ -72,6 +78,8 @@
                         <h3>Blue Jeans</h3>
                         <p>999 kr</p>
                     </article>
+                    </a>
+                    <a href="./sider/product.html">
                     <article class="product-card">
                         <picture>
                             <img src="./bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
@@ -80,6 +88,8 @@
                         <h3>Blue Jeans</h3>
                         <p>999 kr</p>
                     </article>
+                    </a>
+                    <a href="./sider/product.html">
                     <article class="product-card">
                         <picture>
                             <img src="./bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
@@ -88,6 +98,8 @@
                         <h3>Blue Jeans</h3>
                         <p>999 kr</p>
                     </article>
+                    </a>
+                    <a href="./sider/product.html">
                     <article class="product-card">
                         <picture>
                             <img src="./bilder/jeans-428614_1920.jpg" alt="Bilde av en del jeans brettet på hverandre">
@@ -96,6 +108,7 @@
                         <h3>Blue Jeans</h3>
                         <p>999 kr</p>
                     </article>
+                    </a>
                 </article>
         </section>
         <section id="categories">
@@ -124,79 +137,79 @@
             <h2>Anmeldelser</h2>
             <article id="reviews-box">
                 <article class="reviews-card">
-                    <picture>
+                    <picture class="revPic">
                     <img src="./bilder/prayer-book-7842864_1920.jpg" alt="Picture of a girl holding / reading a book">
                     <!--Image by <a href="https://pixabay.com/users/photography_by_sebbi-11339632/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Sebbi Strauch</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Pixabay</a>-->
                     </picture>
-                    <h3>Iusto Molestiae</h3>
-                    <ul>
+                    <h3 class="revTitle">Iusto Molestiae</h3>
+                    <ul class="revList">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-regular fa-star"></i></li>
                     </ul>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
+                    <p class="revText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
                 </article>
                 <article class="reviews-card">
-                    <picture>
+                    <picture class="revPic">
                         <img src="./bilder/prayer-book-7842864_1920.jpg" alt="Picture of a girl holding / reading a book">
                         <!--Image by <a href="https://pixabay.com/users/photography_by_sebbi-11339632/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Sebbi Strauch</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Pixabay</a>-->
                         </picture>
-                    <h3>Iusto Molestiae</h3>
-                    <ul>
+                    <h3 class="revTitle">Iusto Molestiae</h3>
+                    <ul class="revList">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-regular fa-star"></i></li>
                     </ul>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
+                    <p class="revText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
                 </article>
                 <article class="reviews-card">
-                    <picture>
+                    <picture class="revPic">
                         <img src="./bilder/prayer-book-7842864_1920.jpg" alt="Picture of a girl holding / reading a book">
                         <!--Image by <a href="https://pixabay.com/users/photography_by_sebbi-11339632/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Sebbi Strauch</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Pixabay</a>-->
                         </picture>
-                    <h3>Iusto Molestiae</h3>
-                    <ul>
+                    <h3 class="revTitle">Iusto Molestiae</h3>
+                    <ul class="revList">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                     </ul>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
+                    <p class="revText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
                 </article>
                 <article class="reviews-card">
-                    <picture>
+                    <picture class="revPic">
                         <img src="./bilder/prayer-book-7842864_1920.jpg" alt="Picture of a girl holding / reading a book">
                         <!--Image by <a href="https://pixabay.com/users/photography_by_sebbi-11339632/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Sebbi Strauch</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Pixabay</a>-->
                         </picture>
-                    <h3>Iusto Molestiae</h3>
-                    <ul>
+                    <h3 class="revTitle">Iusto Molestiae</h3>
+                    <ul class="revList">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-regular fa-star"></i></li>
                     </ul>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
+                    <p class="revText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
                 </article>
                 <article class="reviews-card">
-                    <picture>
+                    <picture class="revPic">
                         <img src="./bilder/prayer-book-7842864_1920.jpg" alt="Picture of a girl holding / reading a book">
                         <!--Image by <a href="https://pixabay.com/users/photography_by_sebbi-11339632/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Sebbi Strauch</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7842864">Pixabay</a>-->
                         </picture>
-                    <h3>Iusto Molestiae</h3>
-                    <ul>
+                    <h3 class="revTitle">Iusto Molestiae</h3>
+                    <ul class="revList">
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-solid fa-star"></i></li>
                         <li><i class="fa-regular fa-star"></i></li>
                         <li><i class="fa-regular fa-star"></i></li>
                     </ul>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
+                    <p class="revText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas facilis repellat exercitationem odit labore aliquid alias dicta rem, soluta necessitatibus pariatur consequatur inventore illum, cumque quae aliquam repellendus!</p>
                 </article>
             </article>
         </section>
